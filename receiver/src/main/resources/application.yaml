@@ -1,0 +1,3 @@
+receiver:
+  pubsub:
+    demoSubscription: demo-application-laye-sub
