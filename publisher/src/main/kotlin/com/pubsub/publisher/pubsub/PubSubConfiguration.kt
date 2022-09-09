@@ -12,7 +12,7 @@ const val DEMO_CHANNEL = "demoChannel"
 
 @Configuration
 class PubSubConfiguration(
-    @Value("\${openhouse.pubsub.topics.demoTopic}") private val demoTopic: String
+    @Value("\${pubsub.topics.demoTopic}") private val demoTopic: String
 ) {
     @Bean
     @ServiceActivator(inputChannel = DEMO_CHANNEL)
