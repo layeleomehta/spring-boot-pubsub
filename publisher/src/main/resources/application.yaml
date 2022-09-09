@@ -1,2 +1,5 @@
+pubsub:
+  topics:
+    demoTopic: demo-application-laye
 server:
   port: 8081
